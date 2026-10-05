@@ -73,7 +73,7 @@ chosen, and each tool call as it happens. **Download trace** exports the session
 
 ## 3. Architecture
 
-![Architecture diagram](docs/architecture.png)
+<img width="1568" height="640" alt="architecture" src="https://github.com/user-attachments/assets/84594a4c-c240-4298-a13c-87454b93307e" />
 
 Blue = LLM role, grey = plain code. The orange arrow is the **only** path raw page text travels:
 into the Reader, which has no tools.
@@ -95,7 +95,7 @@ into the Reader, which has no tools.
 
 ### Who can read, who can act
 
-![Read vs act](docs/read-vs-act.png)
+<img width="1568" height="908" alt="read-vs-act" src="https://github.com/user-attachments/assets/2d5b8eae-ef46-48e5-8573-2ee8fd149bb6" />
 
 | Component | Sees the question | Sees raw page text | Can call tools |
 |---|---|---|---|
@@ -109,7 +109,7 @@ into the Reader, which has no tools.
 
 ## 4. Flow: how a question is answered
 
-![Question flow](docs/question-flow.png)
+<img width="2064" height="1450" alt="question-flow" src="https://github.com/user-attachments/assets/2987c792-2548-4d18-a20f-92fad32541b2" />
 
 *Expected path for one question on the synthetic test PDF: the rule (30 days) is on page 7 and its
 amendment (45 days) on page 22. 4 of 6 tool calls used.*
